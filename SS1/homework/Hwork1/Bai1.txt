@@ -1,0 +1,27 @@
+OOP và những tính chất của OOP
+1.	Tìm hiểu về OOP
+    -	OOP (viết tắt của Object Oriented Programming) là một trong những kĩ thuật lập trình rất quan trọng và sử dụng nhiều hiện nay. Hầu hết các ngôn lập trình hiện nay như Java, PHP, .NET, Python, …. đều hỗ trợ OOP.
+    -	Lập trình hướng đối tượng (OOP) là một kỹ thuật lập trình cho phép lập trình viên tạo ra các đội tượng trong code trìu tượng hóa  các đối tượng.
+    -	Đối tượng(Object): có thể là con người, điện thoại, máy tính, … và điểm chung là đều gồm 2 thành phần chính: 
+        . Thuộc tính(Attribute): là những thông tin, đặc điểm của đối tượng.
+        . Phương thức(Method): là những hành động mà đối tượng có thể thực hiện.
+-	Những ưu điểm của lập trình hướng đối tượng(OOP): 
+ 	. Dễ dàng quản lí code khi có sự thay đổi chương trình
+	. Dễ mở rộng dự án
+	. Có tính bảo mật cao
+	. Có thể sử dụng mã nguồn, tiết kiệm tài nguyên
+2.	  4 tính chất OOP
+2.1	Tính kế thừa(Inheritance):
+    -Cho phép sử dụng lại các đoạn code đã có trong chương trình 1 cách hiệu quả. 
+    VD: Khi tạo 1 class, thay vì viết 1 class mới hoàn toàn, người lập trình viên có thể kế thừa một số thuộc tính và phương thức từ 1 class đã có trong project. Class đã có trước đấy gọi là lớp cơ sở (Base class), class kế thừa từ Base class (hay superclass) gọi là lớp diễn xuất(Derived class).
+2.2	Tính đa hình( Polymorphism):
+    -	Là 1 tác vụ được thực hiện theo nhiều cách khác nhau.Các phương thức hoàn toàn có thể giống nhau, nhưng việc xử lí luồng có thể khác nhau. 
+    -	Tính đa hình cung cấp khả năng cho phép người lập trình gọi trước một phương thức của đối tượng. Có 2 cách :
+        1.	Method Overloading: là cách nạp luồng các method có cùng tên nhưng khác tham số
+        2.	Method Overriding: là một phương pháp được ghi đè lại các method ảo của một lớp cha nào đó(được khai báo bằng từ khóa virtual)
+2.3 Tình trìu tượng(Abstraction):
+    - Là một tiến trình ẩn các chi tiết trình triển khai và chỉ hiện thị tính năng tới người dùng. Tính trìu tượng cho phép bạn loại bỏ tính chất phức tạp của đối tượng bằng cách chỉ đưa ra các thuộc tính và phươn thức cần thiết trong lập trình.
+2.4 Tính đóng gói(Encapsulation):
+    - Là cách để che dấu những tính chất xử lí bên trong của đối tượng, những đối tượng khác không thể tác động trực tiếp làm thay đổi trạng thái chỉ có thể tác động thông qua các method public của đối tượng đó.	
+
+
