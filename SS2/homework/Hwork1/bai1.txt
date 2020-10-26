@@ -1,0 +1,15 @@
+1. Module là gì?
+    - Module là một file. Hay là " One script is one module". Những module có thể load nhiều function bởi 2 keywords.
+    Đặc biệt đó là Import và Export. Và điều quan trọng module này có thể gọi và sử  dụng một module khác.
+2. Export trong javascripts 
+    - Khai báo những variables hoặc function cho phép những module khác truy cập và sử dụng
+    - Có 2 loại Export đó là named và default:
+        . Name Export: được sử dụng để xuất nhiều thứ từ một module bằng cách thêm keywords export vào khai báo của chúng.
+        Những thứ được export sẽ được phân biệt bằng tên. Sau đó import những thứ chúng ta cần sử dụng bằng cách bao quanh chúng 
+        cặp dấu ngoặc nhọn {}. Tên module đã nhập phải giống tên của module đã xuất.
+        Note: Không thể export khi không định nghĩa tên.
+        . Default Export: chỉ cho phép xuất một mặc định cho 1 file. Default Export có thể cho 1 function, class hoặc 1 object.
+        Note: Không thể export khi không định nghĩa tên.
+3. Import trong javascripts
+    - Cho phép import các functionality từ các module khác.
+    - Để import một module vào một script thì bạn có thể sử dụng import.
