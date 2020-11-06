@@ -1,0 +1,9 @@
+1. Sự khác nhau giữa querySelector, querySelectorAll vs getElementById, getElementsByClassName, getElementsByTagName
+    - querySelector * linh hoạt hơn, vì bạn có thể vượt qua bất kỳ bộ chọn CSS3 nào, không chỉ các bộ chọn đơn giản cho id, thẻ hoặc lớp.
+    - Selector hoàn chỉnh với ID và Class và Pseudo-Class cùng nhau
+    - getElementByClassName bạn chỉ có thể định nghĩa một lớp
+    - getElementById bạn chỉ có thể xác định id
+    - Các loại trả lại của các cuộc gọi này khác nhau. querySelector và getElementById đều trả về một phần tử.
+     Cả querySelectorAll và getElementsByName đều trả về NodeLists, là các hàm mới hơn được thêm vào sau khi HTMLCollection bị lỗi thời.
+     Cả getElementsByClassName và getElementsByTagName cũ đều trả về HTMLCollections.
+     Một lần nữa, điều này về cơ bản không liên quan đến việc các phần tử là sống hay tĩnh.
